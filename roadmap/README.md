@@ -4,7 +4,7 @@ This roadmap takes you from zero knowledge to full stack web development, using 
 
 It is divided into 4 stages:
 
-1. [Front-End Foundations](./01_front_end_foundations.md)
+1. [Front-End Foundations](./01_front_end_foundations/README.md)
 2. [Front-End Intermediate](./02_front_end_intermediate.md)
 3. [Backend Python Foundations](./03_backend_python_foundations.md)
 4. [Full-Stack Integration](./04_full_stack_integration.md)
