@@ -1,0 +1,29 @@
+FullStackJournal/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+│
+├── roadmap/
+│
+├── notes/                   # All your written notes
+│   # Name the directories based on the roadmap
+│   ├── 01_front_end_foundations
+│   │   └── html_tags            # Notes on all HTML tags. One tag per file.
+│   └── 02_front_end_intermediate
+│
+├── projects/                # Hands-on coding work
+│   # Group projects based on what they target on the roadmap
+│   ├── 01_frond_end_foundations
+│   │   └── 01_project_one
+│   └── 02_front_end_intermediate
+│
+├── resources/               # External supporting material
+│   ├── images/              # Diagrams, screenshots
+│   ├── pdfs/                # Reference PDFs, ebooks
+│   ├── articles/            # Saved articles or offline docs
+│   └── tools/               # Scripts, configs, helpers
+│
+├── experiments/             # Sandboxes / trying out new ideas
+│
+└── archive/                 # Old notes or deprecated experiments
