@@ -1,24 +1,9 @@
 # Front-End Foundations
 
-### Understand how the Web works at a high level
-
-* HTTP: requests, responses, status codes (200, 404, 500 etc.), what happens when you type a URL.
-* Browser rendering basics: HTML + CSS + JS; what the browser does.
-* Domain, DNS, hosting, what “static site” means.
-* Tools: Getting comfortable with the terminal/command line. (Optional but useful.)
-* Resources often list this as part of “internet fundamentals.”
-
 ### Version control essentials
 
 * Git basics: init, clone, commit, push, pull, branches.
 * Using GitHub or other remote repo to back up and share your code.
-
-### HTML & CSS
-
-* HTML: semantic markup; structure of pages; headings, paragraphs, images, links, lists, forms (basic).
-* CSS: selectors; box model; layout (Flexbox, Grid); colors, typography; spacing.
-* Responsive web design: media queries, fluid layouts so site works on phones/tablets/desktop.
-* CSS fundamentals like margin, padding, display, positioning.
 
 ### Basic JavaScript
 
