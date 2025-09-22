@@ -1,10 +1,18 @@
-# Semantic HTML & Page Structure
+# Semantic HTML and Page Structure
 
 Semantic HTML means using HTML elements that describe their meaning in a clear, standardized way; both for humans (developers, content authors) and machines (browsers, screen readers, search engines). It is not about “what it looks like” but “what it *means*.”
 
+## Key Topics
+
++ [Why Semantic HTML Matters](#why-semantic-html-matters)
++ [Core Page Structure Elements and Use](#core-page-structure-elements-and-use)
++ [Forms and Related Elements](#forms-and-related-elements)
++ [Best Practices](#best-practices)
++ [Combined Semantic Markup Sample](#combined-semantic-markup-sample)
+
 ---
 
-### Why Semantic HTML Matters
+## Why Semantic HTML Matters
 
 * **Accessibility**: Assistive technologies like screen readers rely on semantic markup to offer structure (e.g., headings, landmarks) so users with disabilities can navigate content.
 * **SEO (Search Engine Optimization)**: Search engines use headings, metadata, and meaningful tags to understand content hierarchy and relevance. Appropriate tags give them stronger signals.
@@ -68,7 +76,7 @@ Forms require special attention because they combine user interaction + semantic
 
 ---
 
-## Example: Combined Semantic Markup Sample
+## Combined Semantic Markup Sample
 
 Here’s a sample HTML skeleton showing many of these principles in action:
 
