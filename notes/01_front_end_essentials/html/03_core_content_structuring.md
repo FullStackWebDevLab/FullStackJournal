@@ -2,6 +2,17 @@
 
 When writing HTML, your goal is to organize content so that both humans and browsers can understand it. This involves headings, paragraphs, separators, and grouping elements.
 
+## Key Topics
+
+- [Headings (`<h1>`-`<h6>`)](#headings-h1-h6)
+- [Paragraphs, Line Breaks, and Horizontal Rules](#paragraphs-line-breaks-and-horizontal-rules)
+  - [Paragraphs (`<p>`)](#paragraphs-p)
+  - [Line Breaks (`<br>`)](#line-breaks-br)
+  - [Horizontal Rule (`<hr>`)](#horizontal-rule-hr)
+- [Grouping Content: `<div>` and `<span>`](#grouping-content-div-and-span)
+  - [`<div>` (block-level container)](#div-block-level-container)
+  - [`<span>` (inline container)](#span-inline-container)
+
 ---
 
 ## Headings (`<h1>`-`<h6>`)
