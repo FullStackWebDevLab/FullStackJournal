@@ -8,11 +8,14 @@ This roadmap presents the essential concepts required to begin working effective
 
 ### What is HTML and how it works
 
+Covered [here](../notes/01_front_end_essentials/html/01_introduction.md)
+
 * Purpose of HTML (structure, not styling or behavior)
 * Differences between markup language vs programming language
-* How browsers interpret HTML (parsing, DOM)
 
 ### Document structure and standards
+
+Covered [here](../notes/01_front_end_essentials/html/02_document_structure_and_standards.md)
 
 * `<!DOCTYPE html>` and why it’s needed
 * `<html>` element and `lang` attribute (specifying document language)
@@ -20,6 +23,8 @@ This roadmap presents the essential concepts required to begin working effective
 * Character encoding (`<meta charset>`), viewport settings, and other head metadata
 
 ### Core content structuring
+
+Covered [here](../notes/01_front_end_essentials/html/03_core_content_structuring.md)
 
 * How to structure headings (`h1`-`h6`) and their hierarchy
 * Paragraphs, line breaks, horizontal rules (`<p>`, `<br>`, `<hr>`)
