@@ -32,6 +32,8 @@ Covered [here](../../notes/01_front_end_essentials/html/03_core_content_structur
 
 ### Links, Images, and Multimedia basics
 
+Covered [here](../../notes/01_front_end_essentials/html/04_multimedia_basics.md)
+
 * Hyperlinks: `<a>` tag, `href`, internal vs external links
 * Images: `<img>`, `src`, `alt`, sizing, responsive images basics
 * Embedding other media: audio, video, if needed: `<audio>`, `<video>`, using `controls`, etc.
