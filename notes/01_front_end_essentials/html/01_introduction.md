@@ -4,7 +4,6 @@
 
 + [What is HTML and How It Works](#what-is-html-and-how-it-works)
 + [Markup Language vs. Programming Language](#markup-language-vs-programming-language)
-+ [References](#references)
 
 ---
 
@@ -27,11 +26,5 @@ A frequent misconception is that HTML is a programming language. It is not. HTML
 * **Programming Language**: A programming language (such as JavaScript, Python, or C) provides control structures, variables, logic, and computational operations.
 
 Thus, HTML is *declarative* rather than *procedural*: it declares the intended structure of a document but does not prescribe a sequence of operations.
-
----
-
-## References
-
-+ Read about the browser rendering process [here](../01_browser_rendering_process.md).
 
 ---
