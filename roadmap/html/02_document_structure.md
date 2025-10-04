@@ -1,26 +1,32 @@
 # Document Structure
 
-## Essential Document Tags
+## Tags
 
-**Tags covered:**
++ [`<!DOCTYPE>`](../../notes/html/00_tags/DOCTYPE.md)
++ [`<html>`](../../notes/html/00_tags/html.md)
++ [`<head>`](../../notes/html/00_tags/head.md)
++ [`<body>`](../../notes/html/00_tags/body.md)
 
-  + `<!DOCTYPE>`
-  + `<html>`
-  + `<head>`
-  + `<body>`
+---
+
+## Additional Content
+
+Covered [here](../../notes/html/02_document_structure.md)
+
+### Essential Document Tags
 
 + Overall tree from `<!DOCTYPE>` → `<html>` → `<head>` → `<body>`.
 + Parent-child relationships and nesting rules.
 + Elements necessary for validity.
 
-## Structural Requirements
+### Structural Requirements
 
 + Correct sequence of major sections.
 + Only one `<head>` and one `<body>` per document.
 + Defaults browsers apply when parts are missing.
 + Required elements vs optional components.
 
-## Organization Principles
+### Organization Principles
 
 + Semantic clarity: metadata in head, content in body.
 + Clean structure, indentation, and validation for compliance.
