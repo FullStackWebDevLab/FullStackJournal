@@ -1,8 +1,10 @@
 # HTML Tags
 
-+ This directory contains notes on HTML tags.
-+ Each file contains detailed notes on one HTML tag.
-+ The files are named based on which tag they discuss (e.g. `div.md` has notes on `<div>`).
-+ All files follow the format specified in [`00_notes_format.md`](./00_notes_format.md).
+This directory contains documentation for HTML tags.
+
+Each file provides detailed notes about a specific HTML tag.  
+Files are named according to the tag they describe (for example, `div.md` contains notes about the `<div>` tag).
+
+All files follow the format outlined in [`00_notes_format.md`](./00_notes_format.md).
 
 ---
