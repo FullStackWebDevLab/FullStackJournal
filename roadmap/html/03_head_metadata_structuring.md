@@ -2,9 +2,9 @@
 
 ## Tags
 
-+ `<title>`
-+ `<meta>`
-+ `<base>`
++ [`<title>`](../../notes/html/00_tags/title.md)
++ [`<meta>`](../../notes/html/00_tags/meta.md)
++ [`<base>`](../../notes/html/00_tags/base.md)
 + `<link>`
 + `<style>`
 + `<script>`
