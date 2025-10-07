@@ -5,9 +5,9 @@
 + [`<title>`](../../notes/html/00_tags/title.md)
 + [`<meta>`](../../notes/html/00_tags/meta.md)
 + [`<base>`](../../notes/html/00_tags/base.md)
-+ `<link>`
-+ `<style>`
-+ `<script>`
++ [`<link>`](../../notes/html/00_tags/link.md)
++ [`<style>`](../../notes/html/00_tags/style.md)
++ [`<script>`](../../notes/html/00_tags/script.md)
 + `<noscript>`
 + `<template>`
 
