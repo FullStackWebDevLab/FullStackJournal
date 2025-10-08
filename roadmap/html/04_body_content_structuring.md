@@ -2,7 +2,7 @@
 
 ## Tags
 
-+ `<h1>` to `<h6>`
++ [`<h1>` to `<h6>`](../../notes/html/00_tags/h1_to_h6.md)
 + `<section>`
 + `<article>`
 + `<header>`
