@@ -8,12 +8,14 @@
 + [`<link>`](../../notes/html/00_tags/link.md)
 + [`<style>`](../../notes/html/00_tags/style.md)
 + [`<script>`](../../notes/html/00_tags/script.md)
-+ `<noscript>`
-+ `<template>`
++ [`<noscript>`](../../notes/html/00_tags/noscript.md)
++ [`<template>`](../../notes/html/00_tags/template.md)
 
 ---
 
 ## Additional Content
+
+Covered [here](../../notes/html/03_head_metadata_structuring.md).
 
 ### Essential Declaration Order
 
