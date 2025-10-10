@@ -1,10 +1,27 @@
 # Links, Images, and Multimedia
 
+## Tags
+
++ [`<a>`](../../notes/html/00_tags/a.md)
++ [`<img>`](../../notes/html/00_tags/img.md)
++ [`<picture>`](../../notes/html/00_tags/picture.md)
++ [`<figure>`](../../notes/html/00_tags/figure.md)
++ [`<figcaption>`](../../notes/html/00_tags/figcaption.md)
++ [`<audio>`](../../notes/html/00_tags/audio.md)
++ [`<video>`](../../notes/html/00_tags/video.md)
++ [`<source>`](../../notes/html/00_tags/source.md)
++ [`<track>`](../../notes/html/00_tags/track.md)
++ [`<iframe>`](../../notes/html/00_tags/iframe.md)
++ [`<embed>`](../../notes/html/00_tags/embed.md)
++ [`<object>`](../../notes/html/00_tags/object.md)
++ [`<map>`](../../notes/html/00_tags/map.md)
++ [`<area>`](../../notes/html/00_tags/area.md)
+
+---
+
+Covered [here](../../notes/html/05_links_images_and_multimedia.md).
+
 ## Hyperlinks and Navigation
-
-**Tags covered:**
-
-  + `<a>`
 
 + Creating internal vs external links
 + Link targets and opening behavior (`_blank`, `_self`)
@@ -16,13 +33,6 @@
 
 ## Image Content and Optimization
 
-**Tags covered:**
-
- + `<img>`
- + `<picture>`
- + `<figure>`
- + `<figcaption>`
-
 + Image formats and appropriate use cases
 + Responsive images with srcset and sizes
 + Art direction with `<picture>` element
@@ -32,13 +42,6 @@
 ---
 
 ## Embedded Media
-
-**Tags covered:**
-
-  + `<audio>`
-  + `<video>`
-  + `<source>`
-  + `<track>`
 
 + Audio and video format compatibility
 + Multiple source fallbacks
@@ -50,12 +53,6 @@
 
 ## Advanced Media Integration
 
-**Tags covered:**
-
-  + `<iframe>`
-  + `<embed>`
-  + `<object>`
-
 + Embedding external content safely
 + Iframe sandboxing and security
 + Embedding documents, PDFs, and plugins
@@ -64,11 +61,6 @@
 ---
 
 ## Media Organization and Semantics
-
-**Tags covered:**
-
-  + `<map>`
-  + `<area>`
 
 + Associating media with captions and context
 + Image maps and complex visual links
