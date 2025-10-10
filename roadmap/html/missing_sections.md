@@ -1,6 +1,7 @@
 ## **Potential Gaps/Missing Sections:**
 
 ### **Core HTML Gaps:**
+
 ```markdown
 ### Text Formatting and Inline Elements
 * Basic text tags: `<p>`, `<strong>`, `<em>`, `<code>`, `<pre>`
@@ -18,12 +19,6 @@
 * `<svg>` for vector graphics
 * `<math>` for mathematical notation
 * `<object>` and `<embed>` fallbacks
-
-### Scripting and Dynamic Content
-* `<script>` loading strategies (async, defer)
-* `<noscript>` for fallback content
-* `<template>` for client-side templates
-* Shadow DOM concepts
 ```
 
 ### **Advanced Topics Missing:**
