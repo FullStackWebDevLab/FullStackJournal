@@ -3,22 +3,24 @@
 ## Tags
 
 + [`<h1>` to `<h6>`](../../notes/html/00_tags/h1_to_h6.md)
-+ `<section>`
-+ `<article>`
-+ `<header>`
-+ `<footer>`
-+ `<div>`
-+ `<span>`
-+ `<main>`
-+ `<aside>`
-+ `<nav>`
-+ `<p>`
-+ `<br>`
-+ `<hr>`
++ [`<section>`](../../notes/html/00_tags/section.md)
++ [`<article>`](../../notes/html/00_tags/article.md)
++ [`<header>`](../../notes/html/00_tags/header.md)
++ [`<footer>`](../../notes/html/00_tags/footer.md)
++ [`<div>`](../../notes/html/00_tags/div.md)
++ [`<span>`](../../notes/html/00_tags/span.md)
++ [`<main>`](../../notes/html/00_tags/main.md)
++ [`<aside>`](../../notes/html/00_tags/aside.md)
++ [`<nav>`](../../notes/html/00_tags/nav.md)
++ [`<p>`](../../notes/html/00_tags/p.md)
++ [`<br>`](../../notes/html/00_tags/br.md)
++ [`<hr>`](../../notes/html/00_tags/hr.md)
 
 ---
 
 ## Additional Content
+
+Covered [here](../../notes/html/04_body_content_structuring.md).
 
 ### Document Outline and Hierarchy
 
