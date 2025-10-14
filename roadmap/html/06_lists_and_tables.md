@@ -1,11 +1,29 @@
 # Lists and Tables
 
+## Tags
+
++ [`<ul>`](../../notes/html/00_tags/ul.md)
++ [`<li>`](../../notes/html/00_tags/li.md)
++ [`<ol>`](../../notes/html/00_tags/ol.md)
++ [`<dl>`](../../notes/html/00_tags/dl.md)
++ [`<dt>`](../../notes/html/00_tags/dt.md)
++ [`<dd>`](../../notes/html/00_tags/dd.md)
++ [`<table>`](../../notes/html/00_tags/table.md)
++ [`<tr>`](../../notes/html/00_tags/tr.md)
++ [`<td>`](../../notes/html/00_tags/td.md)
++ [`<th>`](../../notes/html/00_tags/th.md)
++ [`<thead>`](../../notes/html/00_tags/thead.md)
++ [`<tbody>`](../../notes/html/00_tags/tbody.md)
++ [`<tfoot>`](../../notes/html/00_tags/tfoot.md)
++ [`<caption>`](../../notes/html/00_tags/caption.md)
++ [`<colgroup>`](../../notes/html/00_tags/colgroup.md)
++ [`<col>`](../../notes/html/00_tags/col.md)
+
+---
+
+Covered [here](../../notes/html/06_lists_and_tables.md).
+
 ## Unordered Lists
-
-**Tags covered:**
-
-  + `<ul>`
-  + `<li>`
 
 + When to use unordered vs ordered lists
 + Proper nesting and indentation
@@ -16,10 +34,6 @@
 
 ## Ordered Lists
 
-**Tags covered:**
-
-  + `<ol>`
-
 + Numbering types and sequencing
 + Start values and reversed ordering
 + Custom numbering with CSS
@@ -28,12 +42,6 @@
 ---
 
 ## Definition Lists
-
-**Tags covered:**
-
-  + `<dl>`
-  + `<dt>`
-  + `<dd>`
 
 + Key-value pair relationships
 + Terminology and definitions
@@ -44,13 +52,6 @@
 
 ## Basic Table Structure
 
-**Tags covered:**
-
-  + `<table>`
-  + `<tr>`
-  + `<td>`
-  + `<th>`
-
 + Row-based vs column-based thinking
 + Header cells vs data cells
 + Table borders and spacing concepts
@@ -60,13 +61,6 @@
 
 ## Advanced Table Semantics
 
-**Tags covered:**
-
-  + `<thead>`
-  + `<tbody>`
-  + `<tfoot>`
-  + `<caption>`
-
 + Grouping header, body, and footer rows
 + Table captions and descriptions
 + Scrolling body with fixed header/footer
@@ -75,13 +69,6 @@
 ---
 
 ## Table Accessibility
-
-**Tags covered:**
-
-  + `<th scope>`
-  + `<td headers>`
-  + `<colgroup>`
-  + `<col>`
 
 + Screen reader navigation and context
 + Associating headers with data cells
