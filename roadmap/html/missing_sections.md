@@ -1,8 +1,5 @@
 ## **Potential Gaps/Missing Sections:**
 
-### **Core HTML Gaps:**
-
-```markdown
 ### Text Formatting and Inline Elements
 * Basic text tags: `<p>`, `<strong>`, `<em>`, `<code>`, `<pre>`
 * Inline semantics: `<small>`, `<sub>`, `<sup>`, `<abbr>`, `<cite>`
@@ -19,9 +16,8 @@
 * `<svg>` for vector graphics
 * `<math>` for mathematical notation
 * `<object>` and `<embed>` fallbacks
-```
 
-### **Advanced Topics Missing:**
+### Advanced Topics Missing
 - Web Components and custom elements
 - Internationalization (i18n) attributes
 - Microdata and data attributes
