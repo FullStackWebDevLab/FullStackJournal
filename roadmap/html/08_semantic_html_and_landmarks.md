@@ -2,24 +2,17 @@
 
 ## Tags
 
-+ [`<header>`](#)
-+ [`<footer>`](#)
-+ [`<nav>`](#)
-+ [`<main>`](#)
-+ [`<section>`](#)
-+ [`<article>`](#)
-+ [`<aside>`](#)
-+ [`<figure>`](#)
-+ [`<figcaption>`](#)
-+ [`<time>`](#)
-+ [`<mark>`](#)
-+ [`<details>`](#)
-+ [`<summary>`](#)
-+ [`<address>`](#)
++ [`<time>`](../../notes/html/00_tags/time.md)
++ [`<mark>`](../../notes/html/00_tags/mark.md)
++ [`<details>`](../../notes/html/00_tags/details.md)
++ [`<summary>`](../../notes/html/00_tags/summary.md)
++ [`<address>`](../../notes/html/00_tags/address.md)
 
 ---
 
 ## Additional Content
+
+Covered [here](../../notes/html/08_semantic_html_and_landmarks.md)
 
 ### Document Landmark Structure
 
