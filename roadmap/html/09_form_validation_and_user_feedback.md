@@ -1,16 +1,6 @@
 # Form Validation and User Feedback
 
-## Tags
-
-+ [`<input>`](#) (with validation attributes)
-+ [`<textarea>`](#)
-+ [`<form>`](#)
-+ [`<output>`](#)
-+ [`<span>`](#) (for error messages)
-
----
-
-## Additional Content
+Covered [here](../../html/09_form_validation_and_user_feedback.md)
 
 ### Validation Attributes and Types
 
