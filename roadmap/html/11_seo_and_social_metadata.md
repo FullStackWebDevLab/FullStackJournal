@@ -1,16 +1,6 @@
 # SEO and Social Metadata
 
-## Tags
-
-+ [`<title>`](#)
-+ [`<meta>`](#)
-+ [`<link>`](#)
-+ [`<script>`](#) (for structured data)
-+ All semantic content tags
-
----
-
-## Additional Content
+Covered [here](../../notes/html/11_seo_and_social_metadata.md).
 
 ### Core SEO Meta Tags
 

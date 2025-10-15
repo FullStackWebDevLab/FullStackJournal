@@ -1,18 +1,6 @@
 # Advanced Accessibility (a11y)
 
-## Tags
-
-+ [`<label>`](#)
-+ [`<button>`](#)
-+ [`<nav>`](#)
-+ [`<main>`](#)
-+ [`<section>`](#)
-+ [`<article>`](#)
-+ All semantic elements with ARIA support
-
----
-
-## Additional Content
+Covered [here](../../notes/html/10_advanced_accessibility.md).
 
 ### Keyboard Navigation and Focus
 
