@@ -2,22 +2,24 @@
 
 ## Tags
 
-+ [`<form>`](#)
-+ [`<input>`](#)
-+ [`<textarea>`](#)
-+ [`<button>`](#)
-+ [`<select>`](#)
-+ [`<option>`](#)
-+ [`<optgroup>`](#)
-+ [`<label>`](#)
-+ [`<fieldset>`](#)
-+ [`<legend>`](#)
-+ [`<datalist>`](#)
-+ [`<output>`](#)
++ [`<form>`](../../notes/html/00_tags/form.md)
++ [`<input>`](../../notes/html/00_tags/input.md)
++ [`<textarea>`](../../notes/html/00_tags/textarea.md)
++ [`<button>`](../../notes/html/00_tags/button.md)
++ [`<select>`](../../notes/html/00_tags/select.md)
++ [`<option>`](../../notes/html/00_tags/option.md)
++ [`<optgroup>`](../../notes/html/00_tags/optgroup.md)
++ [`<label>`](../../notes/html/00_tags/label.md)
++ [`<fieldset>`](../../notes/html/00_tags/fieldset.md)
++ [`<legend>`](../../notes/html/00_tags/legend.md)
++ [`<datalist>`](../../notes/html/00_tags/datalist.md)
++ [`<output>`](../../notes/html/00_tags/output.md)
 
 ---
 
 ## Additional Content
+
+Covered [here](../../notes/html/07_forms_and_user_input.md)
 
 ### Form Structure and Organization
 
