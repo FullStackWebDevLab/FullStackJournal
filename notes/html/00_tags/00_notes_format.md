@@ -19,7 +19,7 @@ Short description of what the tag does and why it exists.
 
 ---
 
-## Syntax & Variants
+## Syntax and Variants
 
 + Show the opening and closing tags.  
 + Note if it is void/self-closing.  
