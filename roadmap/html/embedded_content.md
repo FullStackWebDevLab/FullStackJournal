@@ -5,8 +5,6 @@
 + [`<canvas>`](../../notes/html/00_tags/canvas.md)
 + [`<svg>`](../../notes/html/00_tags/svg.md)
 + [`<math>`](../../notes/html/00_tags/math.md)
-+ [`<object>`](../../notes/html/00_tags/object.md)
-+ [`<embed>`](../../notes/html/00_tags/embed.md)
 
 ---
 
