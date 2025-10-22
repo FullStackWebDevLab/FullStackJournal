@@ -18,7 +18,7 @@
 
 ## Additional Content
 
-Covered [here](../../notes/html/text_formatting.md)
+Covered [here](../../notes/html/05_text_formatting_and_inline_elements.md)
 
 ### Text Emphasis and Structure
 

@@ -1,6 +1,6 @@
 # Advanced Accessibility (a11y)
 
-Covered [here](../../notes/html/10_advanced_accessibility.md).
+Covered [here](../../notes/html/13_advanced_accessibility.md).
 
 ### Keyboard Navigation and Focus
 

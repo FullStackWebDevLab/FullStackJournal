@@ -21,7 +21,7 @@
 
 ---
 
-Covered [here](../../notes/html/06_lists_and_tables.md).
+Covered [here](../../notes/html/07_lists_and_tables.md).
 
 ## Unordered Lists
 

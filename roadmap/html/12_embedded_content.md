@@ -10,7 +10,7 @@
 
 ## Additional Content
 
-Covered [here](../../notes/html/embedded_content.md)
+Covered [here](../../notes/html/12_embedded_content.md)
 
 ### Graphics and Drawing Systems
 

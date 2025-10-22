@@ -19,7 +19,7 @@
 
 ---
 
-Covered [here](../../notes/html/05_links_images_and_multimedia.md).
+Covered [here](../../notes/html/06_links_images_and_multimedia.md).
 
 ## Hyperlinks and Navigation
 

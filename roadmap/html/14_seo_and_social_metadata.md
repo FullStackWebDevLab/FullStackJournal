@@ -1,6 +1,6 @@
 # SEO and Social Metadata
 
-Covered [here](../../notes/html/11_seo_and_social_metadata.md).
+Covered [here](../../notes/html/14_seo_and_social_metadata.md).
 
 ### Core SEO Meta Tags
 
