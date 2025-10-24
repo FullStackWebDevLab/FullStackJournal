@@ -9,10 +9,6 @@ Explain the concept clearly and concisely.
 - How it fits into the broader CSS ecosystem  
 *(Example: CSS is a stylesheet language used to define the presentation and layout of HTML content.)*
 
-### Related Concepts
-
-List and briefly define closely related ideas.  
-
 ---
 
 ## Purpose and Importance
