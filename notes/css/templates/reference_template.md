@@ -1,8 +1,6 @@
 # [Title]
 (e.g. Modern Layout; Flexbox)
 
----
-
 ## Overview
 
 Explain what this feature or topic is, its main purpose, and where it fits into CSS.
@@ -35,7 +33,7 @@ You can also include multiple related declarations here if the feature involves 
 
 ---
 
-## Key Properties & Values
+## Key Properties and Values
 
 Break down all relevant properties and their main purpose.
 
