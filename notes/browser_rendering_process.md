@@ -2,16 +2,6 @@
 
 When you load a web page, the browser doesn’t immediately show pixels. There is a pipeline of parsing, style computations, layout, painting, compositing, JS execution, etc. Understanding this pipeline is critical for performance and for designing front‐end systems.
 
-## Key Topics
-
-+ [Key Definitions](#key-definitions)
-+ [Stages of the Rendering Pipeline](#stages-of-the-rendering-pipeline)
-    + [Reflow vs Repaint and Performance Implications](#reflow-vs-repaint-and-performance-implications)
-+ [Critical Rendering Path and Render-Blocking Resources](#critical-rendering-path-and-render-blocking-resources)
-+ [JavaScript Execution and Event Loop](#javascript-execution-and-event-loop)
-+ [Rendering Strategies](#rendering-strategies)
-+ [Best Practices](#best-practices)
-
 ---
 
 ## Key Definitions
