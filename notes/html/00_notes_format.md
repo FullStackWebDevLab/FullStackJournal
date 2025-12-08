@@ -1,18 +1,5 @@
 # `<tag-name>`
 
-## Key Topics
-
-+ [Definition and Purpose](#definition-and-purpose)
-+ [Syntax and Variants](#syntax-and-variants)
-+ [Attributes](#attributes)
-+ [Content Model](#content-model)
-+ [Context](#context)
-+ [Behavior and Semantics](#behavior-and-semantics)
-+ [Examples](#examples)
-+ [Notes](#notes)
-
----
-
 ## Definition and Purpose  
 
 Short description of what the tag does and why it exists.
@@ -25,54 +12,26 @@ Short description of what the tag does and why it exists.
 + Note if it is void/self-closing.  
 + Mention any alternative or legacy forms.
 
+Explain the content model:
++ What content can go inside (text, phrasing, flow, etc.).
++ Any restrictions or "must be empty" cases.
+
 ---
 
 ## Attributes
 
 + List important attributes with explanations.  
 + Mention which are required and which are optional.  
-+ Note global attributes (`id`, `class`, `style`, `data-*`, `aria-*`).  
-
----
-
-## Content Model
-
-+ What content can go inside (text, phrasing, flow, etc.).  
-+ Any restrictions or “must be empty” cases.  
-
----
-
-## Context
-
-+ Where the tag is valid in a document.  
-+ Parent restrictions if any.  
-+ Notes on usage limits (e.g. unique in document).  
-
----
-
-## Behavior and Semantics  
-
-+ How browsers render it by default.  
-+ Default display style.  
-+ Semantic meaning for accessibility or SEO.  
++ Note global attributes (`id`, `class`, `style`, `data-*`, `aria-*`), don't explain them.  
 
 ---
 
 ## Examples  
 
-Show progressively more complex usage examples.
+Show 1-3 progressively more complex usage examples.
 
 ```html
 <tag-name>…</tag-name>
 ```
-
----
-
-## Notes
-
-* Deprecated attributes or forms.
-* Differences across HTML versions.
-* Common pitfalls.
-* Browser quirks.
 
 ---
