@@ -1,0 +1,561 @@
+# Comprehensive CSS Properties Reference
+
+This document presents a systematic enumeration of Cascading Style Sheets (CSS) properties, organized by functional category.
+
+## Typography and Text Properties
+
+### Font Properties
+
++ `font`: Shorthand property for comprehensive font specification
++ `font-family`: Specifies typeface for text rendering
++ `font-size`: Determines text scale and dimensions
++ `font-style`: Controls italic and oblique text presentation
++ `font-variant`: Manages small-caps and variant typography
++ `font-weight`: Adjusts text boldness and thickness
++ `font-stretch`: Controls horizontal condensation or expansion
++ `font-kerning`: Manages spacing between character pairs
++ `font-feature-settings`: Enables OpenType font features
++ `font-variant-caps`: Controls capital letter variants
++ `font-variant-ligatures`: Manages ligature rendering
++ `font-variant-numeric`: Controls numeric character variants
++ `font-variant-east-asian`: Manages East Asian character variants
++ `font-variant-alternates`: Specifies alternate glyph usage
++ `font-variant-position`: Controls subscript and superscript
++ `font-optical-sizing`: Manages optical size variation
++ `font-synthesis`: Controls browser synthesis of font styles
++ `font-synthesis-weight`: Controls weight synthesis
++ `font-synthesis-style`: Controls style synthesis
++ `font-synthesis-small-caps`: Controls small-caps synthesis
++ `font-synthesis-position`: Controls position synthesis
++ `font-language-override`: Overrides language-specific rendering
++ `font-palette`: Selects color font palette
++ `font-size-adjust`: Preserves legibility across font changes
++ `font-variation-settings`: Controls variable font axes
+
+### Text Properties
+
++ `color`: Specifies foreground text color
++ `text-align`: Controls horizontal text alignment
++ `text-align-last`: Aligns final line of text block
++ `text-decoration`: Applies decorative lines to text
++ `text-decoration-line`: Specifies decoration line type
++ `text-decoration-color`: Defines decoration line color
++ `text-decoration-style`: Determines decoration line style
++ `text-decoration-thickness`: Controls decoration line thickness
++ `text-decoration-skip-ink`: Manages decoration interaction with descenders
++ `text-indent`: Specifies first-line indentation
++ `text-justify`: Controls text justification algorithm
++ `text-overflow`: Manages overflow text truncation
++ `text-shadow`: Applies shadow effects to text
++ `text-transform`: Controls capitalization transformation
++ `text-underline-offset`: Adjusts underline vertical position
++ `text-underline-position`: Controls underline placement
++ `text-emphasis`: Applies emphasis marks to text
++ `text-emphasis-color`: Specifies emphasis mark color
++ `text-emphasis-position`: Determines emphasis mark placement
++ `text-emphasis-style`: Defines emphasis mark appearance
++ `text-orientation`: Controls glyph orientation in vertical text
++ `text-combine-upright`: Manages character combination in vertical text
++ `text-wrap`: Controls text wrapping behavior
++ `text-wrap-mode`: Specifies wrapping mode
++ `text-wrap-style`: Determines wrapping style characteristics
++ `text-rendering`: Optimizes text rendering
++ `text-spacing-trim`: Controls spacing at text boundaries
++ `text-autospace`: Manages automatic spacing rules
+
+### Line and Letter Spacing
+
++ `line-height`: Controls vertical spacing between text lines
++ `line-height-step`: Quantizes line height to specified step
++ `letter-spacing`: Adjusts spacing between characters
++ `word-spacing`: Controls spacing between words
++ `word-break`: Specifies word breaking behavior
++ `overflow-wrap`: Controls word breaking at overflow
++ `white-space`: Manages whitespace handling
++ `white-space-collapse`: Controls whitespace collapsing
++ `hyphens`: Controls hyphenation behavior
++ `hyphenate-character`: Specifies hyphenation character
++ `hyphenate-limit-chars`: Sets minimum characters for hyphenation
++ `tab-size`: Specifies tab character width
++ `hanging-punctuation`: Controls punctuation placement
+
+## Box Model Properties
+
+### Dimensions
+
++ `width`: Specifies element width
++ `height`: Specifies element height
++ `min-width`: Establishes minimum width constraint
++ `max-width`: Establishes maximum width constraint
++ `min-height`: Establishes minimum height constraint
++ `max-height`: Establishes maximum height constraint
++ `inline-size`: Specifies size in inline direction
++ `block-size`: Specifies size in block direction
++ `min-inline-size`: Establishes minimum inline size
++ `max-inline-size`: Establishes maximum inline size
++ `min-block-size`: Establishes minimum block size
++ `max-block-size`: Establishes maximum block size
+
+### Padding
+
++ `padding`: Shorthand for internal spacing
++ `padding-top`: Specifies top internal spacing
++ `padding-right`: Specifies right internal spacing
++ `padding-bottom`: Specifies bottom internal spacing
++ `padding-left`: Specifies left internal spacing
++ `padding-block`: Shorthand for block-axis padding
++ `padding-block-start`: Specifies block-start padding
++ `padding-block-end`: Specifies block-end padding
++ `padding-inline`: Shorthand for inline-axis padding
++ `padding-inline-start`: Specifies inline-start padding
++ `padding-inline-end`: Specifies inline-end padding
+
+### Margin
+
++ `margin`: Shorthand for external spacing
++ `margin-top`: Specifies top external spacing
++ `margin-right`: Specifies right external spacing
++ `margin-bottom`: Specifies bottom external spacing
++ `margin-left`: Specifies left external spacing
++ `margin-block`: Shorthand for block-axis margin
++ `margin-block-start`: Specifies block-start margin
++ `margin-block-end`: Specifies block-end margin
++ `margin-inline`: Shorthand for inline-axis margin
++ `margin-inline-start`: Specifies inline-start margin
++ `margin-inline-end`: Specifies inline-end margin
++ `margin-trim`: Removes margins at container edges
+
+### Border
+
++ `border`: Shorthand for border specification
++ `border-width`: Specifies border thickness
++ `border-style`: Defines border visual style
++ `border-color`: Specifies border color
++ `border-top`: Shorthand for top border
++ `border-top-width`: Specifies top border thickness
++ `border-top-style`: Defines top border style
++ `border-top-color`: Specifies top border color
++ `border-right`: Shorthand for right border
++ `border-right-width`: Specifies right border thickness
++ `border-right-style`: Defines right border style
++ `border-right-color`: Specifies right border color
++ `border-bottom`: Shorthand for bottom border
++ `border-bottom-width`: Specifies bottom border thickness
++ `border-bottom-style`: Defines bottom border style
++ `border-bottom-color`: Specifies bottom border color
++ `border-left`: Shorthand for left border
++ `border-left-width`: Specifies left border thickness
++ `border-left-style`: Defines left border style
++ `border-left-color`: Specifies left border color
++ `border-block`: Shorthand for block-axis borders
++ `border-block-width`: Specifies block-axis border thickness
++ `border-block-style`: Defines block-axis border style
++ `border-block-color`: Specifies block-axis border color
++ `border-block-start`: Shorthand for block-start border
++ `border-block-start-width`: Specifies block-start border thickness
++ `border-block-start-style`: Defines block-start border style
++ `border-block-start-color`: Specifies block-start border color
++ `border-block-end`: Shorthand for block-end border
++ `border-block-end-width`: Specifies block-end border thickness
++ `border-block-end-style`: Defines block-end border style
++ `border-block-end-color`: Specifies block-end border color
++ `border-inline`: Shorthand for inline-axis borders
++ `border-inline-width`: Specifies inline-axis border thickness
++ `border-inline-style`: Defines inline-axis border style
++ `border-inline-color`: Specifies inline-axis border color
++ `border-inline-start`: Shorthand for inline-start border
++ `border-inline-start-width`: Specifies inline-start border thickness
++ `border-inline-start-style`: Defines inline-start border style
++ `border-inline-start-color`: Specifies inline-start border color
++ `border-inline-end`: Shorthand for inline-end border
++ `border-inline-end-width`: Specifies inline-end border thickness
++ `border-inline-end-style`: Defines inline-end border style
++ `border-inline-end-color`: Specifies inline-end border color
++ `border-radius`: Specifies corner curvature
++ `border-top-left-radius`: Defines top-left corner radius
++ `border-top-right-radius`: Defines top-right corner radius
++ `border-bottom-right-radius`: Defines bottom-right corner radius
++ `border-bottom-left-radius`: Defines bottom-left corner radius
++ `border-start-start-radius`: Defines start-start corner radius
++ `border-start-end-radius`: Defines start-end corner radius
++ `border-end-start-radius`: Defines end-start corner radius
++ `border-end-end-radius`: Defines end-end corner radius
++ `border-image`: Shorthand for border image specification
++ `border-image-source`: Specifies border image source
++ `border-image-slice`: Defines border image slicing
++ `border-image-width`: Specifies border image width
++ `border-image-outset`: Extends border image beyond border box
++ `border-image-repeat`: Controls border image repetition
++ `border-collapse`: Controls table border rendering model
++ `border-spacing`: Specifies spacing between table borders
+
+### Outline
+
++ `outline`: Shorthand for outline specification
++ `outline-width`: Specifies outline thickness
++ `outline-style`: Defines outline visual style
++ `outline-color`: Specifies outline color
++ `outline-offset`: Controls distance between outline and border edge
+
+## Layout and Positioning
+
+### Display
+
++ `display`: Establishes element rendering behavior
++ `visibility`: Controls element visibility
++ `opacity`: Specifies element transparency
+
+### Position
+
++ `position`: Defines positioning scheme
++ `top`: Specifies vertical offset from containing block top
++ `right`: Specifies horizontal offset from containing block right
++ `bottom`: Specifies vertical offset from containing block bottom
++ `left`: Specifies horizontal offset from containing block left
++ `inset`: Shorthand for top, right, bottom, left
++ `inset-block`: Shorthand for block-axis insets
++ `inset-block-start`: Specifies block-start inset
++ `inset-block-end`: Specifies block-end inset
++ `inset-inline`: Shorthand for inline-axis insets
++ `inset-inline-start`: Specifies inline-start inset
++ `inset-inline-end`: Specifies inline-end inset
++ `z-index`: Controls stacking order in positioned elements
+
+### Float and Clear
+
++ `float`: Positions element outside normal flow
++ `clear`: Prevents floating element adjacency
+
+### Flexbox Layout
+
++ `flex`: Shorthand for flexible box properties
++ `flex-direction`: Establishes flex container main axis
++ `flex-wrap`: Controls flex item wrapping behavior
++ `flex-flow`: Shorthand for direction and wrap
++ `flex-grow`: Specifies flex item growth factor
++ `flex-shrink`: Specifies flex item shrink factor
++ `flex-basis`: Establishes flex item initial size
++ `justify-content`: Aligns items along main axis
++ `align-items`: Aligns items along cross axis
++ `align-self`: Overrides align-items for individual items
++ `align-content`: Aligns flex lines within container
++ `place-content`: Shorthand for align-content and justify-content
++ `place-items`: Shorthand for align-items and justify-items
++ `place-self`: Shorthand for align-self and justify-self
++ `order`: Controls flex item ordering
++ `gap`: Specifies spacing between flex items
++ `row-gap`: Specifies vertical spacing between rows
++ `column-gap`: Specifies horizontal spacing between columns
+
+### Grid Layout
+
++ `grid`: Shorthand for grid container properties
++ `grid-template`: Shorthand for template rows, columns, areas
++ `grid-template-rows`: Defines grid row track sizes
++ `grid-template-columns`: Defines grid column track sizes
++ `grid-template-areas`: Establishes named grid areas
++ `grid-auto-rows`: Specifies implicit row track sizes
++ `grid-auto-columns`: Specifies implicit column track sizes
++ `grid-auto-flow`: Controls auto-placement algorithm
++ `grid-row`: Shorthand for row placement
++ `grid-row-start`: Specifies row start position
++ `grid-row-end`: Specifies row end position
++ `grid-column`: Shorthand for column placement
++ `grid-column-start`: Specifies column start position
++ `grid-column-end`: Specifies column end position
++ `grid-area`: Shorthand for row and column placement
++ `justify-items`: Aligns grid items along inline axis
++ `justify-self`: Controls individual item inline alignment
+
+### Multi+column Layout
+
++ `columns`: Shorthand for column properties
++ `column-count`: Specifies number of columns
++ `column-width`: Defines optimal column width
++ `column-gap`: Specifies spacing between columns
++ `column-rule`: Shorthand for column divider specification
++ `column-rule-width`: Specifies column divider thickness
++ `column-rule-style`: Defines column divider style
++ `column-rule-color`: Specifies column divider color
++ `column-span`: Controls element spanning across columns
++ `column-fill`: Controls content distribution across columns
++ `break-before`: Controls page/column break before element
++ `break-after`: Controls page/column break after element
++ `break-inside`: Controls page/column break within element
+
+### Box Sizing and Overflow
+
++ `box-sizing`: Controls box model calculation method
++ `overflow`: Shorthand for overflow behavior
++ `overflow-x`: Controls horizontal overflow behavior
++ `overflow-y`: Controls vertical overflow behavior
++ `overflow-block`: Controls block-axis overflow
++ `overflow-inline`: Controls inline-axis overflow
++ `overflow-wrap`: Controls word breaking at line end
++ `overflow-clip-margin`: Extends overflow clip boundary
++ `overflow-anchor`: Controls scroll anchoring behavior
++ `overscroll-behavior`: Shorthand for overscroll behavior
++ `overscroll-behavior-x`: Controls horizontal overscroll
++ `overscroll-behavior-y`: Controls vertical overscroll
++ `overscroll-behavior-block`: Controls block-axis overscroll
++ `overscroll-behavior-inline`: Controls inline-axis overscroll
+
+## Visual Effects
+
+### Background
+
++ `background`: Shorthand for background properties
++ `background-color`: Specifies background fill color
++ `background-image`: Defines background image
++ `background-position`: Specifies background image position
++ `background-position-x`: Controls horizontal background position
++ `background-position-y`: Controls vertical background position
++ `background-size`: Defines background image dimensions
++ `background-repeat`: Controls background image repetition
++ `background-attachment`: Specifies background scrolling behavior
++ `background-origin`: Determines background positioning area
++ `background-clip`: Defines background painting area
++ `background-blend-mode`: Specifies background layer blending
+
+### Shadows and Filters
+
++ `box-shadow`: Applies shadow effects to element box
++ `filter`: Applies graphical effects to element
++ `backdrop-filter`: Applies effects to area behind element
+
+### Transformations
+
++ `transform`: Applies geometric transformations
++ `transform-origin`: Establishes transformation reference point
++ `transform-style`: Preserves 3D transformation context
++ `transform-box`: Defines transformation coordinate space
++ `rotate`: Specifies rotation transformation
++ `scale`: Specifies scaling transformation
++ `translate`: Specifies translation transformation
++ `perspective`: Establishes 3D perspective viewing distance
++ `perspective-origin`: Defines 3D perspective vanishing point
+
+### Transitions and Animations
+
++ `transition`: Shorthand for transition properties
++ `transition-property`: Specifies properties to transition
++ `transition-duration`: Defines transition duration
++ `transition-timing-function`: Controls transition acceleration curve
++ `transition-delay`: Specifies transition start delay
++ `transition-behavior`: Controls transition behavior for discrete properties
+
+### Blending and Masking
+
++ `mix-blend-mode`: Specifies element blending with backdrop
++ `isolation`: Creates new stacking context for blending
++ `mask`: Shorthand for masking properties
++ `mask-image`: Defines mask image source
++ `mask-mode`: Specifies mask application mode
++ `mask-position`: Controls mask position
++ `mask-size`: Defines mask dimensions
++ `mask-repeat`: Controls mask repetition
++ `mask-origin`: Determines mask positioning area
++ `mask-clip`: Defines mask painting area
++ `mask-composite`: Specifies mask compositing operation
++ `mask-border`: Shorthand for mask border properties
++ `mask-border-source`: Specifies mask border image
++ `mask-border-slice`: Defines mask border slicing
++ `mask-border-width`: Specifies mask border width
++ `mask-border-outset`: Extends mask border beyond element
++ `mask-border-repeat`: Controls mask border repetition
++ `mask-border-mode`: Defines mask border application mode
++ `mask-type`: Specifies SVG mask type
++ `clip-path`: Defines visible element region
++ `clip-rule`: Determines clipping region fill algorithm
+
+### Color and Appearance
+
++ `color-scheme`: Indicates color scheme preference
++ `forced-color-adjust`: Controls forced color mode behavior
++ `appearance`: Controls native widget appearance
++ `accent-color`: Specifies user interface accent color
++ `caret-color`: Defines text input caret color
++ `caret`: Shorthand for caret properties
++ `caret-shape`: Controls caret visual shape
+
+## Scrolling and Interaction
+
+### Scroll Behavior
+
++ `scroll-behavior`: Controls scrolling animation behavior
++ `scroll-margin`: Shorthand for scroll margin
++ `scroll-margin-top`: Specifies top scroll margin
++ `scroll-margin-right`: Specifies right scroll margin
++ `scroll-margin-bottom`: Specifies bottom scroll margin
++ `scroll-margin-left`: Specifies left scroll margin
++ `scroll-margin-block`: Shorthand for block-axis scroll margin
++ `scroll-margin-block-start`: Specifies block-start scroll margin
++ `scroll-margin-block-end`: Specifies block-end scroll margin
++ `scroll-margin-inline`: Shorthand for inline-axis scroll margin
++ `scroll-margin-inline-start`: Specifies inline-start scroll margin
++ `scroll-margin-inline-end`: Specifies inline-end scroll margin
++ `scroll-padding`: Shorthand for scroll padding
++ `scroll-padding-top`: Specifies top scroll padding
++ `scroll-padding-right`: Specifies right scroll padding
++ `scroll-padding-bottom`: Specifies bottom scroll padding
++ `scroll-padding-left`: Specifies left scroll padding
++ `scroll-padding-block`: Shorthand for block-axis scroll padding
++ `scroll-padding-block-start`: Specifies block-start scroll padding
++ `scroll-padding-block-end`: Specifies block-end scroll padding
++ `scroll-padding-inline`: Shorthand for inline-axis scroll padding
++ `scroll-padding-inline-start`: Specifies inline-start scroll padding
++ `scroll-padding-inline-end`: Specifies inline-end scroll padding
++ `scroll-snap-type`: Defines scroll snap container characteristics
++ `scroll-snap-align`: Specifies snap alignment position
++ `scroll-snap-stop`: Controls snap point bypassing behavior
++ `scroll-timeline`: Defines scroll-driven animation timeline
++ `scroll-timeline-name`: Specifies scroll timeline identifier
++ `scroll-timeline-axis`: Defines scroll timeline axis
+
+### Scrollbar Styling
+
++ `scrollbar-color`: Specifies scrollbar color scheme
++ `scrollbar-width`: Controls scrollbar thickness
++ `scrollbar-gutter`: Reserves space for scrollbar
+
+### User Interaction
+
++ `pointer-events`: Controls pointer event processing
++ `touch-action`: Determines touch gesture handling
++ `user-select`: Controls text selection capability
++ `resize`: Enables user-initiated element resizing
++ `cursor`: Specifies pointer cursor appearance
+
+## List Styling
+
++ `list-style`: Shorthand for list properties
++ `list-style-type`: Defines list item marker type
++ `list-style-position`: Controls marker positioning
++ `list-style-image`: Specifies custom marker image
+
+## Table Properties
+
++ `table-layout`: Controls table layout algorithm
++ `caption-side`: Specifies table caption position
++ `empty-cells`: Controls empty cell border rendering
+
+## Content and Generated Content
+
++ `content`: Generates content in pseudo-elements
++ `quotes`: Defines quotation mark characters
++ `counter-reset`: Creates or resets counters
++ `counter-increment`: Increments counter values
++ `counter-set`: Sets counter to specific value
+
+## Printing and Paged Media
+
++ `page`: Specifies named page for element
++ `page-break-before`: Controls page break before element
++ `page-break-after`: Controls page break after element
++ `page-break-inside`: Controls page break within element
++ `orphans`: Specifies minimum lines at page bottom
++ `widows`: Specifies minimum lines at page top
+
+## Writing Modes and Direction
+
++ `writing-mode`: Establishes block flow direction
++ `direction`: Specifies inline base direction
++ `text-orientation`: Controls glyph orientation
++ `unicode-bidi`: Controls bidirectional text handling
+
+## SVG+specific Properties
+
++ `fill`: Specifies fill color for SVG shapes
++ `fill-opacity`: Controls fill transparency
++ `fill-rule`: Determines fill region algorithm
++ `stroke`: Specifies stroke color for SVG shapes
++ `stroke-width`: Controls stroke thickness
++ `stroke-opacity`: Controls stroke transparency
++ `stroke-linecap`: Defines stroke end cap style
++ `stroke-linejoin`: Specifies stroke corner style
++ `stroke-dasharray`: Creates dashed stroke pattern
++ `stroke-dashoffset`: Offsets dash pattern start position
++ `stroke-miterlimit`: Limits miter length at sharp corners
++ `marker`: Shorthand for shape markers
++ `marker-start`: Specifies marker at path start
++ `marker-mid`: Specifies marker at path vertices
++ `marker-end`: Specifies marker at path end
++ `paint-order`: Controls painting order of fill, stroke, markers
++ `vector-effect`: Controls coordinate space for stroke
++ `shape-rendering`: Optimizes shape rendering quality
++ `color-interpolation-filters`: Controls filter color space
++ `flood-color`: Specifies flood color for filters
++ `flood-opacity`: Controls flood opacity
++ `lighting-color`: Specifies lighting color for filters
++ `stop-color`: Defines gradient stop color
++ `stop-opacity`: Controls gradient stop opacity
+
+## Container Queries
+
++ `container`: Shorthand for container properties
++ `container-type`: Defines container query type
++ `container-name`: Specifies container identifier
+
+## Containment
+
++ `contain`: Enables layout containment optimizations
++ `content-visibility`: Controls element rendering behavior
++ `contain-intrinsic-size`: Shorthand for intrinsic size specification
++ `contain-intrinsic-width`: Specifies intrinsic width placeholder
++ `contain-intrinsic-height`: Specifies intrinsic height placeholder
++ `contain-intrinsic-block-size`: Specifies intrinsic block size
++ `contain-intrinsic-inline-size`: Specifies intrinsic inline size
+
+## Anchor Positioning
+
++ `anchor-name`: Defines anchor element identifier
++ `position-anchor`: Associates element with anchor
++ `position-area`: Specifies positioning area relative to anchor
+
+## View Transitions
+
++ `view-transition-name`: Defines view transition participant identifier
++ `view-transition-class`: Assigns class to view transition element
+
+## Mathematical Layout
+
++ `math-style`: Controls mathematical notation style
++ `math-depth`: Manages mathematical expression nesting
++ `math-shift`: Controls superscript/subscript positioning
+
+## Ruby Annotations
+
++ `ruby-position`: Specifies ruby annotation position
++ `ruby-align`: Controls ruby content alignment
+
+## Image Rendering
+
++ `image-rendering`: Optimizes image scaling algorithm
++ `image-orientation`: Controls image orientation
++ `image-resolution`: Specifies image intrinsic resolution
++ `object-fit`: Controls replaced element content fitting
++ `object-position`: Specifies replaced element content position
++ `object-view-box`: Defines viewable region of replaced content
+
+## Motion Path
+
++ `offset`: Shorthand for motion path properties
++ `offset-path`: Defines motion path
++ `offset-distance`: Specifies position along path
++ `offset-rotate`: Controls orientation along path
++ `offset-anchor`: Defines element anchor point for path
++ `offset-position`: Specifies initial position reference
+
+## Miscellaneous Properties
+
++ `all`: Resets all properties except direction and unicode-bidi
++ `aspect-ratio`: Specifies preferred width-to-height ratio
++ `box-decoration-break`: Controls fragmented box decoration
++ `field-sizing`: Controls form field sizing behavior
++ `initial-letter`: Creates drop cap effect
++ `interpolate-size`: Enables size interpolation for animations
++ `line-clamp`: Limits text to specified line count
++ `overlay`: Controls overlay painting order
++ `print-color-adjust`: Controls color adjustment in print
++ `will-change`: Hints at upcoming property changes for optimization
++ `zoom`: Scales element and its contents
