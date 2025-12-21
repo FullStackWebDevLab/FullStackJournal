@@ -1,6 +1,6 @@
 # HTML Global Attributes Reference
 
-This document provides a comprehensive reference for HTML global attributes—attributes that can be applied to any HTML element, derived from authoritative web standards documentation.
+This document provides a comprehensive reference for HTML global attributes—attributes that can be applied to any HTML element.
 
 ## Core Identification and Classification
 
