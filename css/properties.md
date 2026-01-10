@@ -2,6 +2,65 @@
 
 This document presents a systematic enumeration of Cascading Style Sheets (CSS) properties, organized by functional category.
 
+> Note to self. This document does not cover the properties as deeply as I would like. For each property you need more information on, document that property with all the information needed at the top of this file, under the heading "Expanded Property Notes". Arrange the properties in an alphabetical order. The property name should be a level 3 heading with sub-headings within the property's notes having lower levels (look at how `display` is documented).
+
+## Expanded Property Notes
+
+### `align-items`
+
+The `align-items` property is a CSS property used in flexbox and grid layouts. It controls how items are positioned along the cross axis of their container. In flexbox, the cross axis is perpendicular to the main axis. In a horizontal layout, the cross axis is vertical (top to bottom).
+
+#### Values
+
++ `stretch`: This is the default value. Items are stretched to fill the container's height (in horizontal layouts) or width (in vertical layouts). This only works if the items do not have a fixed size set.
++ `flex-start`: Items are placed at the start of the cross axis. In a horizontal layout, this means items align to the top of the container.
++ `flex-end`: Items are placed at the end of the cross axis. In a horizontal layout, items align to the bottom of the container.
++ `center`: Items are placed in the middle of the cross axis. This is commonly used to center items vertically within a container.
++ `baseline`: Items are aligned so that their text baselines line up. This is useful when you have items with different font sizes or padding and want their text to align properly.
+
+### `display`
+
+Determines the rendering behavior of elements within a document.
+
+#### Values
+
++ `block`: An element with this value starts on a new line and takes up the full width available in its container. Block elements include `div`, `p`, etc.
++ `inline`: An element with this value flows within the text and does not start on a new line. It only takes up as much width as it needs. You cannot set width or height on inline elements. Examples include `<span>`, `<a>`, and `<strong>`.
++ `inline-block`: This value combines features of both inline and block. The element flows with the text but you can set its width, height, padding, and margin. This is useful for creating horizontal layouts.
++ `none`: An element with this value is removed completely from the page. It takes up no space. This is different from `visibility: hidden`, which hides the element but keeps its space.
++ `flex`: This value turns the element into a flex container. This allows you to arrange its child elements in flexible ways, making it useful for responsive layouts.
++ `grid`: This value turns the element into a grid container. You can define rows and columns to create organized two-dimensional layouts.
++ `inline-flex` and `inline-grid`: These work like flex and grid, but the container itself flows within the text like an inline element.
+
+There are additional values such as `table`, `table-row`, and `table-cell` for creating table-like layouts, `list-item` for list formatting, and `contents` for removing the element's box while keeping its children visible.
+
+### `justify-content`
+
+This property controls how items are positioned along the main axis of their container. It is used in flexbox and grid layouts. In flexbox, the main axis is usually horizontal (left to right) but can be vertical if you change the flex direction.
+
+#### Values
+
++ `flex-start`: This is the default value. Items are placed at the beginning of the container. In a horizontal layout, this means items align to the left.
++ `flex-end`: Items are placed at the end of the container. In a horizontal layout, items align to the right.
++ `center`: Items are placed in the middle of the container. This is useful for centering content horizontally.
++ `space-between`: Items are spread out evenly across the container. The first item is at the start, the last item is at the end, and remaining space is distributed equally between items.
++ `space-around`: Items are spread out with equal space around each item. This means the space between items is twice as large as the space at the edges.
++ `space-evenly`: Items are spread out with exactly equal space between them and at the edges. All gaps are the same size.
+
+### `min-height`
+
+This property sets the minimum height an element can have. The element can grow taller than this value if its content requires more space, but it will never be shorter than the specified minimum.
+
+#### Values
+
++ Length values: You can use units like `px` (pixels), `em`, `rem`, `vh` (viewport height), or `%` (percentage of the parent's height). For example: `min-height: 200px` or `min-height: 50vh`.
++ `0`: This is the default value. The element has no minimum height and will only be as tall as its content requires.
++ `auto`: The browser calculates the minimum height automatically based on the content.
+
+The `min-height` property works alongside `height` and `max-height`. If both `height` and `min-height` are set, and `min-height` is larger, then `min-height` takes priority. The element will be at least as tall as `min-height` specifies.
+
+---
+
 ## Typography and Text Properties
 
 ### Font Properties
