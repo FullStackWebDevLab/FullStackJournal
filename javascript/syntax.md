@@ -201,6 +201,10 @@ const functionName = (parameter1, parameter2) => {
 
 // Concise syntax for single expression
 const functionName = (parameter1, parameter2) => expression;
+
+// Single parameter unnamed function
+parameter => { /* Function body */ }
+// This type of function is usually passed as a parameter.
 ```
 
 ### Immediately Invoked Function Expression (IIFE)
