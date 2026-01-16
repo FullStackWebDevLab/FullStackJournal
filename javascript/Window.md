@@ -931,7 +931,7 @@ Starts the process of fetching a resource from the network.
 
 **Parameters:**
 - resource: URL or Request object
-- options: Object with method, headers, body, etc.
+- options: Object with method, headers, body, etc. For more info check [RequestInit.md](./RequestInit.md).
 
 **Returns:** Promise<Response>  
 **Example:**
