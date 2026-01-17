@@ -102,6 +102,59 @@ The `min-height` property works alongside `height` and `max-height`. If both `he
 
 ---
 
+### `text-align`
+
+`text-align` is a CSS property that controls the horizontal alignment of text and inline content within an element.
+
+#### Values
+
+**1. `text-align: left` (the default for left-to-right languages)**
+
+This aligns the text to the left edge of the container.
+
+```css
+text-align: left;
+```
+
+**2. `text-align: right`**
+
+This aligns the text to the right edge of the container.
+
+```css
+text-align: right;
+```
+
+**3. `text-align: center`**
+
+This centers the text horizontally within the container.
+
+```css
+text-align: center;
+```
+
+**4. `text-align: justify`**
+
+This stretches the text so that each line has equal width. The browser adds extra space between words to make both the left and right edges align. The last line is usually left-aligned.
+
+```css
+text-align: justify;
+```
+
+**Important notes:**
+
+- `text-align` only works on **block-level elements** (like `<div>`, `<p>`, `<h1>`) or elements with `display: block`
+- It affects the text and inline elements (like `<span>`, `<img>`, `<a>`) inside the element, not the element itself
+- To center a block element itself (not its text), you need to use different techniques, like `margin: 0 auto` with a set width
+
+**Example:**
+```css
+p {
+  text-align: center; /* Centers the text inside the paragraph */
+}
+```
+
+---
+
 ## Typography and Text Properties
 
 ### Font Properties
