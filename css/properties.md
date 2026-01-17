@@ -18,6 +18,43 @@ The `align-items` property is a CSS property used in flexbox and grid layouts. I
 + `center`: Items are placed in the middle of the cross axis. This is commonly used to center items vertically within a container.
 + `baseline`: Items are aligned so that their text baselines line up. This is useful when you have items with different font sizes or padding and want their text to align properly.
 
+---
+
+### `box-sizing`
+
+This property controls how the total width and height of an element are calculated.
+
+#### Values
+
+**1. `box-sizing: content-box` (the default)**
+
+This means that `width` and `height` only apply to the content area of the element. Padding and borders are added on top of the width you set.
+
+For example, if you set:
+```css
+width: 200px;
+padding: 10px;
+border: 5px;
+```
+
+The total width will be 230px (200px content + 10px padding on each side + 5px border on each side).
+
+**2. `box-sizing: border-box`**
+
+This means that `width` and `height` include the content, padding, and border. The browser calculates the content area by subtracting padding and border from the total width you set.
+
+Using the same example:
+```css
+width: 200px;
+padding: 10px;
+border: 5px;
+box-sizing: border-box;
+```
+
+The total width will be exactly 200px. The browser will make the content area smaller (170px) to fit the padding and border inside the 200px total.
+
+---
+
 ### `display`
 
 Determines the rendering behavior of elements within a document.
@@ -34,6 +71,8 @@ Determines the rendering behavior of elements within a document.
 
 There are additional values such as `table`, `table-row`, and `table-cell` for creating table-like layouts, `list-item` for list formatting, and `contents` for removing the element's box while keeping its children visible.
 
+---
+
 ### `justify-content`
 
 This property controls how items are positioned along the main axis of their container. It is used in flexbox and grid layouts. In flexbox, the main axis is usually horizontal (left to right) but can be vertical if you change the flex direction.
@@ -46,6 +85,8 @@ This property controls how items are positioned along the main axis of their con
 + `space-between`: Items are spread out evenly across the container. The first item is at the start, the last item is at the end, and remaining space is distributed equally between items.
 + `space-around`: Items are spread out with equal space around each item. This means the space between items is twice as large as the space at the edges.
 + `space-evenly`: Items are spread out with exactly equal space between them and at the edges. All gaps are the same size.
+
+---
 
 ### `min-height`
 
