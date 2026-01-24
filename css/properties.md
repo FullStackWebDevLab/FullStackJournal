@@ -20,6 +20,61 @@ The `align-items` property is a CSS property used in flexbox and grid layouts. I
 
 ---
 
+### `border-bottom`
+
+The `border-bottom` CSS property adds a border to the bottom edge of an element.
+
+Basic syntax:
+```css
+border-bottom: width style color;
+```
+
+You can set all three values at once, or just one or two of them.
+
+#### Examples
+
+A simple bottom border:
+```css
+border-bottom: 1px solid black;
+```
+
+A thick blue dashed bottom border:
+```css
+border-bottom: 3px dashed blue;
+```
+
+Just setting the style:
+```css
+border-bottom: solid;
+```
+
+You can also control each part separately:
+
+```css
+border-bottom-width: 2px;
+```
+
+This sets how thick the bottom border is. You can use units like `px`, `em`, or keywords like `thin`, `medium`, `thick`.
+
+```css
+border-bottom-style: solid;
+```
+
+This sets the style of the bottom border. Common values include:
+- `solid`
+- `dashed`
+- `dotted`
+- `double`
+- `none`
+
+```css
+border-bottom-color: red;
+```
+
+This sets the color of the bottom border.
+
+---
+
 ### `box-shadow`
 
 The `box-shadow` CSS property adds shadow effects around an element's frame.
@@ -137,6 +192,111 @@ This property controls how items are positioned along the main axis of their con
 
 ---
 
+### `margin`
+
+The `margin` CSS property creates space around the outside of an element.
+
+Basic syntax:
+```css
+margin: 20px;
+```
+
+This adds 20 pixels of space around all sides of the element.
+
+Margin creates transparent space between an element and other elements around it. Unlike padding (which creates space inside an element), margin pushes other elements away.
+
+#### Examples
+
+All Sides the Same:
+```css
+margin: 10px;
+```
+
+Different Values for Each Side:
+**Two values** - Top/bottom, then left/right:
+```css
+margin: 10px 20px;
+```
+
+**Three values** - Top, left/right, then bottom:
+```css
+margin: 10px 20px 30px;
+```
+
+**Four values** - Top, right, bottom, left (clockwise):
+```css
+margin: 10px 20px 30px 40px;
+```
+
+You can set each side separately:
+
+```css
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+```
+
+#### Value Types
+
+**Pixels:**
+```css
+margin: 20px;
+```
+
+**Percentages** (relative to the parent element's width):
+```css
+margin: 5%;
+```
+
+**Em or rem units:**
+```css
+margin: 1.5em;
+```
+
+**Auto** (for centering):
+```css
+margin: 0 auto;
+```
+
+This centers a block element horizontally.
+
+**Zero** (no margin):
+```css
+margin: 0;
+```
+
+**Negative values** (pulls elements closer or creates overlap):
+```css
+margin-top: -10px;
+```
+
+#### Margin Collapse
+
+When two vertical margins touch, they collapse into one margin. The larger margin wins.
+
+Example:
+```css
+.box1 { margin-bottom: 20px; }
+.box2 { margin-top: 30px; }
+```
+
+The space between these boxes will be 30px (not 50px), because the margins collapse and the larger one (30px) is used.
+
+Horizontal margins do not collapse.
+
+#### Negative Margins
+
+Negative margins pull elements in the opposite direction:
+
+```css
+margin-left: -10px;
+```
+
+This moves the element 10 pixels to the left, potentially overlapping with other elements.
+
+---
+
 ### `min-height`
 
 This property sets the minimum height an element can have. The element can grow taller than this value if its content requires more space, but it will never be shorter than the specified minimum.
@@ -148,6 +308,106 @@ This property sets the minimum height an element can have. The element can grow 
 + `auto`: The browser calculates the minimum height automatically based on the content.
 
 The `min-height` property works alongside `height` and `max-height`. If both `height` and `min-height` are set, and `min-height` is larger, then `min-height` takes priority. The element will be at least as tall as `min-height` specifies.
+
+---
+
+### `position`
+
+The `position` CSS property sets how an element is positioned in the document.
+
+#### Values
+
+There are five main position values:
+
+##### 1. Static
+
+```css
+position: static;
+```
+
+This is the default value. Elements appear in the normal document flow. The properties `top`, `right`, `bottom`, `left`, and `z-index` have no effect.
+
+##### 2. Relative
+
+```css
+position: relative;
+```
+
+The element is positioned relative to its normal position. You can move it using `top`, `right`, `bottom`, and `left`, but its original space remains reserved in the layout.
+
+Example:
+```css
+.box {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+```
+
+This moves the box 20 pixels down and 30 pixels right from where it would normally be.
+
+##### 3. Absolute
+
+```css
+position: absolute;
+```
+
+The element is removed from the normal document flow. It is positioned relative to its nearest positioned ancestor (an ancestor with `position` other than `static`). If no positioned ancestor exists, it positions relative to the document body.
+
+Example:
+```css
+.child {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+```
+
+##### 4. Fixed
+
+```css
+position: fixed;
+```
+
+The element is removed from the normal flow and positioned relative to the browser window. It stays in the same place even when the page is scrolled.
+
+Example:
+```css
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+```
+
+This creates a header that stays at the top while scrolling.
+
+##### 5. Sticky
+
+```css
+position: sticky;
+```
+
+The element acts like `relative` until it reaches a specified scroll position, then it acts like `fixed`. You must specify at least one of `top`, `right`, `bottom`, or `left`.
+
+Example:
+```css
+.sidebar {
+  position: sticky;
+  top: 20px;
+}
+```
+
+#### Positioning Properties
+
+Once you set a position value (except `static`), you can use these properties:
+
+- `top` - Distance from the top
+- `right` - Distance from the right
+- `bottom` - Distance from the bottom
+- `left` - Distance from the left
+
+These properties accept values like pixels, percentages, or other CSS units.
 
 ---
 
@@ -201,6 +461,54 @@ p {
   text-align: center; /* Centers the text inside the paragraph */
 }
 ```
+
+---
+
+### `z-index`
+
+The `z-index` CSS property controls the stacking order of elements on a webpage.
+
+When elements overlap, `z-index` determines which element appears on top. Elements with higher `z-index` values appear in front of elements with lower values.
+
+Basic usage:
+```css
+z-index: 10;
+```
+
+The value is a number. It can be positive, negative, or zero.
+
++ **Higher numbers are on top** - An element with `z-index: 10` will appear above an element with `z-index: 5`.
++ **Default value** - Elements start with `z-index: auto`, which behaves like `z-index: 0`.
++ **Negative values** - You can use negative numbers like `z-index: -1` to push elements behind others.
+
+**Note**: The `z-index` property only works on positioned elements. This means the element must have a `position` value of:
+- `relative`
+- `absolute`
+- `fixed`
+- `sticky`
+
+It does not work on elements with `position: static` (the default).
+
+#### Examples
+
+Creating a popup that appears above other content:
+```css
+.popup {
+  position: fixed;
+  z-index: 100;
+}
+```
+
+Layering three overlapping boxes:
+```css
+.box1 { position: relative; z-index: 1; }
+.box2 { position: relative; z-index: 2; }
+.box3 { position: relative; z-index: 3; }
+```
+
+#### Stacking Context
+
+Elements create separate stacking groups called stacking contexts. A child element cannot appear above elements outside its parent's stacking context, no matter how high its `z-index` is. This means `z-index` values only compete within the same stacking context.
 
 ---
 
