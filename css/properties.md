@@ -20,6 +20,55 @@ The `align-items` property is a CSS property used in flexbox and grid layouts. I
 
 ---
 
+### `box-shadow`
+
+The `box-shadow` CSS property adds shadow effects around an element's frame.
+
+The property takes several values in this order:
+
+```css
+box-shadow: horizontal vertical blur spread color;
+```
+
++ **Horizontal offset** - This is the first value. It moves the shadow left or right. Positive numbers move it right. Negative numbers move it left.
++ **Vertical offset** - This is the second value. It moves the shadow up or down. Positive numbers move it down. Negative numbers move it up.
++ **Blur radius** - This is optional. It makes the shadow softer and more spread out. Larger numbers create more blur. The default is 0, which means sharp edges.
++ **Spread radius** - This is optional. It makes the shadow larger or smaller. Positive numbers make it bigger. Negative numbers make it smaller.
++ **Color** - This sets the shadow's color. You can use any valid CSS color.
+
+#### Examples
+
+A simple shadow below and to the right:
+```css
+box-shadow: 5px 5px 10px gray;
+```
+
+A shadow above and to the left:
+```css
+box-shadow: -5px -5px 10px black;
+```
+
+A large, soft shadow:
+```css
+box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+```
+
+#### Multiple Shadows
+
+You can add multiple shadows by separating them with commas:
+```css
+box-shadow: 3px 3px 5px gray, -3px -3px 5px lightblue;
+```
+
+#### Inset Shadows
+
+Adding the word `inset` at the start creates a shadow inside the element:
+```css
+box-shadow: inset 0 0 10px black;
+```
+
+---
+
 ### `box-sizing`
 
 This property controls how the total width and height of an element are calculated.
