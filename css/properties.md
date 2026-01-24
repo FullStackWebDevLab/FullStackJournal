@@ -177,6 +177,302 @@ There are additional values such as `table`, `table-row`, and `table-cell` for c
 
 ---
 
+### `flex`
+
+The `flex` CSS property is a shorthand that sets how a flex item grows, shrinks, and sizes itself.
+
+Basic Syntax:
+```css
+flex: grow shrink basis;
+```
+
+This combines three properties:
+- `flex-grow` - How much the item grows
+- `flex-shrink` - How much the item shrinks
+- `flex-basis` - The initial size of the item
+
+#### Common Values
+
+Single Number:
+```css
+flex: 1;
+```
+
+This is shorthand for `flex: 1 1 0%`. The item can grow and shrink, starting from zero size.
+
+Two Numbers:
+```css
+flex: 2 1;
+```
+
+This sets `flex-grow: 2` and `flex-shrink: 1`. The `flex-basis` defaults to `0%`.
+
+Number and Size:
+```css
+flex: 1 200px;
+```
+
+This sets `flex-grow: 1` and `flex-basis: 200px`. The `flex-shrink` defaults to `1`.
+
+Three Values:
+```css
+flex: 2 1 300px;
+```
+
+This sets `flex-grow: 2`, `flex-shrink: 1`, and `flex-basis: 300px`.
+
+#### Common Keywords
+
+Auto:
+```css
+flex: auto;
+```
+
+This is shorthand for `flex: 1 1 auto`. The item can grow and shrink, starting from its natural content size.
+
+None:
+```css
+flex: none;
+```
+
+This is shorthand for `flex: 0 0 auto`. The item cannot grow or shrink. It stays at its natural size.
+
+Initial:
+```css
+flex: initial;
+```
+
+This is shorthand for `flex: 0 1 auto`. The item can shrink but not grow.
+
+If you do not set `flex`, the default is:
+
+```css
+flex: 0 1 auto;
+```
+
+This means items do not grow, but they can shrink, and they start at their natural size.
+
+---
+
+### `flex-shrink`
+
+The `flex-shrink` CSS property controls how much a flex item shrinks when there is not enough space in the flex container. When flex items are too large to fit in their container, `flex-shrink` determines how much each item shrinks relative to the others.
+
+Basic Syntax:
+```css
+flex-shrink: 1;
+```
+
+This is applied to individual flex items, not to the flex container.
+
+**Default value:** `1` - Items can shrink if needed.
+
+**Value of `0`:** The item will not shrink at all.
+
+**Higher values:** The item shrinks more than items with lower values.
+
+The value is a number (without units). It can be:
+- Zero or positive numbers
+- Decimals like `0.5`
+
+Negative values are not allowed.
+
+#### Examples
+
+Preventing an Item from Shrinking:
+```css
+.item {
+  flex-shrink: 0;
+}
+```
+
+This item will keep its original size and will not shrink, even if there is not enough space.
+
+Making an Item Shrink More:
+```css
+.item1 {
+  flex-shrink: 1;
+}
+
+.item2 {
+  flex-shrink: 2;
+}
+```
+
+When space is tight, `item2` will shrink twice as much as `item1`.
+
+#### Practical Use Case
+
+Keeping a sidebar at a fixed width while allowing the main content to shrink:
+
+```css
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  flex-shrink: 0; /* Does not shrink */
+}
+
+.main-content {
+  flex-shrink: 1; /* Can shrink if needed */
+}
+```
+
+`flex-shrink` is often used with:
+- `flex-grow` - Controls how items grow
+- `flex-basis` - Sets the initial size before growing or shrinking
+
+---
+
+### `font-weight`
+
+The `font-weight` CSS property sets how thick or thin the characters in text appear.
+
+Basic Syntax:
+```css
+font-weight: bold;
+```
+
+Or:
+
+```css
+font-weight: 700;
+```
+
+#### Common Values
+
+The default `font-weight` is `normal` (which equals 400).
+
+**normal** - Regular weight (same as 400):
+```css
+font-weight: normal;
+```
+
+**bold** - Bold weight (same as 700):
+```css
+font-weight: bold;
+```
+
+**bolder** - One weight heavier than the parent element:
+```css
+font-weight: bolder;
+```
+
+**lighter** - One weight lighter than the parent element:
+```css
+font-weight: lighter;
+```
+
+You can use numbers from 100 to 900 in increments of 100:
+
+```css
+font-weight: 100; /* Thin */
+font-weight: 200; /* Extra Light */
+font-weight: 300; /* Light */
+font-weight: 400; /* Normal (default) */
+font-weight: 500; /* Medium */
+font-weight: 600; /* Semi Bold */
+font-weight: 700; /* Bold */
+font-weight: 800; /* Extra Bold */
+font-weight: 900; /* Black */
+```
+
+The exact appearance depends on which weights the font family supports.
+
+Not all fonts support all weight values. If you request a weight that the font does not have, the browser will use the closest available weight.
+
+For example, if a font only has weights 400 and 700:
+- `font-weight: 300` will display as 400
+- `font-weight: 600` will display as 700
+
+Modern variable fonts can support any weight value between their minimum and maximum, not just increments of 100:
+
+```css
+font-weight: 450;
+font-weight: 650;
+```
+
+This only works if the font is a variable font.
+
+#### Inheritance
+
+`font-weight` is inherited from parent elements. Child elements will use the same weight unless you specify otherwise.
+
+```css
+.parent {
+  font-weight: 300;
+}
+
+.child {
+  /* Inherits 300 from parent */
+}
+```
+
+---
+
+### `gap`
+
+The `gap` CSS property sets the space between items in a flex container or grid container.
+
+Basic Syntax:
+```css
+gap: 20px;
+```
+
+This adds 20 pixels of space between all items.
+
+The `gap` property works with:
+- **Flexbox** - Elements with `display: flex`
+- **Grid** - Elements with `display: grid`
+
+It does not work with normal block or inline elements.
+
+Same Gap for All Directions:
+```css
+gap: 10px;
+```
+
+Different Gaps for Rows and Columns:
+```css
+gap: 20px 10px;
+```
+
+The first value is the row gap (vertical space). The second value is the column gap (horizontal space).
+
+You can set row and column gaps separately:
+```css
+row-gap: 20px;
+column-gap: 10px;
+```
+
+#### Value Types
+
+**Pixels:**
+```css
+gap: 15px;
+```
+
+**Percentages:**
+```css
+gap: 5%;
+```
+
+**Em or rem units:**
+```css
+gap: 1rem;
+```
+
+**Zero** (no gap):
+```css
+gap: 0;
+```
+
+Note: Gap cannot have negative values.
+
+---
+
 ### `justify-content`
 
 This property controls how items are positioned along the main axis of their container. It is used in flexbox and grid layouts. In flexbox, the main axis is usually horizontal (left to right) but can be vertical if you change the flex direction.
@@ -308,6 +604,126 @@ This property sets the minimum height an element can have. The element can grow 
 + `auto`: The browser calculates the minimum height automatically based on the content.
 
 The `min-height` property works alongside `height` and `max-height`. If both `height` and `min-height` are set, and `min-height` is larger, then `min-height` takes priority. The element will be at least as tall as `min-height` specifies.
+
+---
+
+### `outline`
+
+The `outline` CSS property draws a line around the outside of an element, beyond its border.
+
+Basic Syntax:
+```css
+outline: width style color;
+```
+
+You can set all three values at once, or just one or two of them.
+
+This sets how thick the outline is:
+```css
+outline-width: 2px;
+```
+
+You can use units like `px`, `em`, or keywords like `thin`, `medium`, `thick`.
+
+Style is required for the outline to show. Common styles include:
+
+- `solid` - A single solid line
+- `dashed` - A dashed line
+- `dotted` - A dotted line
+- `double` - Two solid lines
+- `groove` - A 3D grooved outline
+- `ridge` - A 3D ridged outline
+- `inset` - A 3D inset outline
+- `outset` - A 3D outset outline
+- `none` - No outline (default)
+
+```css
+outline-style: solid;
+```
+
+This sets the outline's color:
+```css
+outline-color: blue;
+```
+
+To remove an outline:
+```css
+outline: none;
+/*
+Or:
+*/
+outline: 0;
+```
+
+**Accessibility Warning**: Do not remove focus outlines without providing an alternative. Focus indicators help keyboard users know which element is active. Removing them makes websites harder to use for people who navigate without a mouse.
+
+You can control each part separately:
+```css
+outline-width: 3px;
+outline-style: dashed;
+outline-color: green;
+```
+
+---
+
+### `padding`
+
+The `padding` CSS property creates space inside an element, between the element's content and its border.
+
+Basic Syntax:
+```css
+padding: 20px;
+```
+
+This adds 20 pixels of space inside all sides of the element.
+
+Padding creates space inside an element. Unlike margin (which creates space outside an element), padding pushes the content away from the element's edges. Padding uses the element's background color.
+
+#### Examples
+
+All Sides the Same:
+```css
+padding: 10px;
+```
+
+**Two values** - Top/bottom, then left/right:
+```css
+padding: 10px 20px;
+```
+
+**Three values** - Top, left/right, then bottom:
+```css
+padding: 10px 20px 30px;
+```
+
+**Four values** - Top, right, bottom, left (clockwise):
+```css
+padding: 10px 20px 30px 40px;
+```
+
+You can set each side separately:
+```css
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+```
+
+#### Padding and Box Size
+
+By default, padding increases the total size of an element. If you set `width: 200px` and `padding: 20px`, the total width becomes 240px (200px + 20px left + 20px right).
+
+You can change this behavior with `box-sizing`:
+
+```css
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+}
+```
+
+With `box-sizing: border-box`, the total width stays 200px, and the padding is included inside that width.
 
 ---
 
@@ -460,6 +876,156 @@ text-align: justify;
 p {
   text-align: center; /* Centers the text inside the paragraph */
 }
+```
+
+---
+
+### `transition`
+
+The `transition` CSS property creates smooth animations when CSS properties change from one value to another.
+
+Basic Syntax:
+```css
+transition: property duration timing-function delay;
+```
+
+You can set all four values at once, or just one or two of them.
+
+#### Property
+
+Which CSS property to animate.
+
+```css
+transition: background-color 0.3s;
+```
+
+You can use `all` to animate all properties:
+
+```css
+transition: all 0.3s;
+```
+
+#### Duration
+
+How long the transition takes.
+
+```css
+transition: color 2s;
+```
+
+Use seconds (`s`) or milliseconds (`ms`). For example, `0.3s` or `300ms`.
+
+#### Timing Function (Optional)
+
+How the transition progresses over time.
+
+Common values:
+- `ease` - Starts slow, speeds up, then slows down (default)
+- `linear` - Constant speed throughout
+- `ease-in` - Starts slow, then speeds up
+- `ease-out` - Starts fast, then slows down
+- `ease-in-out` - Similar to ease but more pronounced
+
+```css
+transition: width 1s ease-in-out;
+```
+
+#### Delay (Optional)
+
+How long to wait before starting the transition.
+
+```css
+transition: opacity 0.5s ease 0.2s;
+```
+
+This waits 0.2 seconds before starting the opacity transition.
+
+#### Examples
+
+##### Simple Hover Effect
+
+```css
+button {
+  background-color: blue;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: red;
+}
+```
+
+The background color smoothly changes from blue to red over 0.3 seconds.
+
+##### Multiple Properties
+
+You can animate multiple properties by separating them with commas:
+
+```css
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: width 0.5s, height 0.5s, background-color 0.3s;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+```
+
+#### Animating All Properties
+
+```css
+.card {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+```
+
+#### Individual Properties
+
+You can set each part separately:
+
+```css
+transition-property: background-color;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+transition-delay: 0.1s;
+```
+
+#### Properties That Can Be Transitioned
+
+Most numeric and color properties can be transitioned, including:
+- `opacity`
+- `color`, `background-color`, `border-color`
+- `width`, `height`
+- `margin`, `padding`
+- `transform` (scale, rotate, translate)
+- `box-shadow`
+- `border-width`
+
+Properties like `display` and `visibility` cannot be smoothly transitioned (though `visibility` can be delayed).
+
+For smooth animations, prefer transitioning these properties:
+- `opacity`
+- `transform` (translate, scale, rotate)
+
+These perform better than transitioning properties like `width`, `height`, or `top`/`left`.
+
+#### Removing Transitions
+
+To remove a transition:
+```css
+transition: none;
 ```
 
 ---
