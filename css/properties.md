@@ -473,6 +473,59 @@ Note: Gap cannot have negative values.
 
 ---
 
+### `grid-template-columns`
+
+The `grid-template-columns` property defines the number and size of columns in a CSS Grid layout.
+
+Basic syntax:
+```css
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 100px;
+}
+```
+
+This creates three columns with widths of 100 pixels, 200 pixels, and 100 pixels.
+
+#### Common Values
+
+**Fixed sizes:**
+```css
+grid-template-columns: 200px 300px;
+```
+
+**Fractions (fr units):**
+The `fr` unit represents a fraction of available space.
+```css
+grid-template-columns: 1fr 2fr 1fr;
+```
+This creates three columns where the middle column is twice as wide as the outer columns.
+
+**Mixed values:**
+```css
+grid-template-columns: 100px 1fr 2fr;
+```
+
+**repeat() function:**
+```css
+grid-template-columns: repeat(3, 200px);
+```
+This is the same as writing `200px 200px 200px`.
+
+**Auto:**
+```css
+grid-template-columns: auto 1fr auto;
+```
+The `auto` keyword sizes columns based on their content.
+
+**minmax():**
+```css
+grid-template-columns: minmax(100px, 300px) 1fr;
+```
+This sets a minimum and maximum size for a column.
+
+---
+
 ### `justify-content`
 
 This property controls how items are positioned along the main axis of their container. It is used in flexbox and grid layouts. In flexbox, the main axis is usually horizontal (left to right) but can be vertical if you change the flex direction.
