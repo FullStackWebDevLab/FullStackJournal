@@ -46,7 +46,7 @@ Example scale:
 | `h5`    | `14px – 20px` | Minor headings. |
 | `h6`    | `12px – 18px` | Smallest headings, less emphasis. |
 
-**Purpose:** Larger sizes establish clear reading order and improve scan-ability. ([Design.dev][2])
+**Purpose:** Larger sizes establish clear reading order and improve scan-ability.
 
 ---
 
